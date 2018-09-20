@@ -32,28 +32,11 @@ store.dispatch(addExpense({
 
 store.dispatch(addExpense({
     id: 3,
-    note: 'Scored Weed',
+    note: 'Water Bottle',
     amount: 50000,
     createdAt: 9234567890,
-    description: 'Bought the best weed ever'
+    description: 'Bought the best water bottle ever'
 }));
-
-store.dispatch(addExpense({
-    id: 4,
-    note: 'Matka',
-    amount: 10000,
-    createdAt: 1234567440,
-    description: 'Kalyan 43'
-}));
-
-store.dispatch(editExpense(4, {
-    note: 'Matka',
-    amount: 10000,
-    createdAt: 1234567440,
-    description: 'Kalyan 69'
-}));
-
-store.dispatch(removeExpense(4));
 
 
 // store.dispatch(setTextFilter('aaloo'));
