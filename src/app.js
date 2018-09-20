@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
+import './styles/style.scss';
 
 import AppRouter from './routers/AppRouter';
 import configureStore from './stores/configureStore';
